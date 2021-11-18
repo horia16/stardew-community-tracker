@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap");
+* {
+    font-family: "Shippori Antique B1", sans-serif;
+}
+body {
+    @apply bg-sea-green;
+    /* background: url(/ui/bg.png) no-repeat fixed center center / cover; */
+}
+.pixelated {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+.border-ui {
+    /* border: 10px solid rgb(88, 52, 22); */
+    /* border-image: url(/ui/border.png) 12 stretch; */
+    /* border-image-slice: 32%; */
+    background-color: #ffffcc;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

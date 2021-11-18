@@ -1,0 +1,33 @@
+{
+    "name": "stardew-tracker",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite --host",
+        "build": "vue-tsc --noEmit && vite build",
+        "serve": "vite preview"
+    },
+    "dependencies": {
+        "pinia": "^2.0.3",
+        "vee-validate": "^4.5.5",
+        "vue": "^3.2.16",
+        "vue-headless-ui": "^0.0.16-alpha.1",
+        "vue-router": "^4.0.12",
+        "vuedraggable": "^4.1.0"
+    },
+    "devDependencies": {
+        "@iconify/vue": "^3.1.0",
+        "@typescript-eslint/eslint-plugin": "^5.3.1",
+        "@typescript-eslint/parser": "^5.3.1",
+        "@vitejs/plugin-vue": "^1.9.3",
+        "@vue/eslint-config-typescript": "^9.0.1",
+        "autoprefixer": "^10.4.0",
+        "eslint": "^8.2.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-vue": "^8.0.3",
+        "postcss": "^8.3.11",
+        "tailwindcss": "^2.2.19",
+        "typescript": "^4.4.3",
+        "vite": "^2.6.4",
+        "vue-tsc": "^0.3.0"
+    }
+}
