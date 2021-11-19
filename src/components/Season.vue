@@ -1,7 +1,7 @@
 <template>
     <div class="rounded overflow-hidden">
         <img
-            :src="`/seasons/${season}.png`"
+            :src="imageUrl(`seasons/${season}.png`)"
             :alt="season"
             draggable="false"
             class="select-none pixelated"
@@ -12,6 +12,7 @@
 <script setup lang="ts">
 import { PropType } from "vue";
 import { Season } from "../static/enums";
+import { imageUrl } from "../utils/image-url";
 defineProps({
     season: { type: String as PropType<Season>, required: true },
     small: { type: Boolean, default: false }

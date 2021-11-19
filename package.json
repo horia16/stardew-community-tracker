@@ -17,6 +17,7 @@
     },
     "devDependencies": {
         "@iconify/vue": "^3.1.0",
+        "@rollup/plugin-dynamic-import-vars": "^1.4.1",
         "@typescript-eslint/eslint-plugin": "^5.3.1",
         "@typescript-eslint/parser": "^5.3.1",
         "@vitejs/plugin-vue": "^1.9.3",

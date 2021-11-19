@@ -33,7 +33,7 @@
                 <div class="flex gap-4 items-center handle cursor-move bg-blue-green shadow rounded">
                     <div class="p-2 relative">
                         <img
-                            :src="`/items/${element.sprite}`"
+                            :src="imageUrl(`items/${element.sprite}`)"
                             alt=""
                             srcset=""
                             draggable="false"
@@ -41,7 +41,7 @@
                         />
                         <img
                             v-if="element.goldQuality"
-                            :src="`/ui/gold.webp`"
+                            :src="imageUrl(`ui/gold.webp`)"
                             alt=""
                             srcset=""
                             draggable="false"
@@ -58,5 +58,7 @@ import draggable from "vuedraggable";
 import { useMainStore } from "../store/main";
 import { Icon } from "@iconify/vue";
 import Card from "./Card.vue";
+import { imageUrl } from "../utils/image-url";
+
 const mainStore = useMainStore();
 </script>

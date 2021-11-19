@@ -6,7 +6,7 @@
                     <div class="flex gap-4 items-center">
                         <card class="p-2 bg-blue-green handle cursor-move image border bg-yellow relative">
                             <img
-                                :src="`/items/${item.sprite}`"
+                                :src="imageUrl(`items/${item.sprite}`)"
                                 alt=""
                                 srcset=""
                                 draggable="false"
@@ -14,7 +14,7 @@
                             />
                             <img
                                 v-if="item.goldQuality"
-                                :src="`/ui/gold.webp`"
+                                :src="imageUrl(`/ui/gold.webp`)"
                                 alt=""
                                 srcset=""
                                 draggable="false"
@@ -101,6 +101,8 @@ import Season from "./Season.vue";
 import Card from "./Card.vue";
 import Weather from "./Weather.vue";
 import { useMainStore } from "../store/main";
+import { imageUrl } from "../utils/image-url";
+
 const props = defineProps({
     item: { type: Object as PropType<Item>, required: true }
 });
