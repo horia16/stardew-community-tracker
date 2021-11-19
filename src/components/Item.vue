@@ -14,7 +14,7 @@
                             />
                             <img
                                 v-if="item.goldQuality"
-                                :src="imageUrl(`/ui/gold.webp`)"
+                                :src="imageUrl(`ui/gold.webp`)"
                                 alt=""
                                 srcset=""
                                 draggable="false"
