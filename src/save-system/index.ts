@@ -12,6 +12,9 @@ export function load() {
 }
 export function loadFromSave() {
     const mainStore = useMainStore();
+
+    console.log(mainStore.saveGameItems.filter(x => x.id == 422));
+
     mainStore.done = mainStore.items.filter(
         x =>
             mainStore.saveGameItems.find(y => {

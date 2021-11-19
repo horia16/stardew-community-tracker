@@ -4,7 +4,7 @@
 }
 body {
     @apply bg-sea-green;
-    /* background: url(/ui/bg.png) no-repeat fixed center center / cover; */
+    background: url(/ui/bg.png) no-repeat fixed center center / cover;
 }
 .pixelated {
     image-rendering: pixelated;
