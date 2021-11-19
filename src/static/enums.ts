@@ -23,7 +23,8 @@ export enum Location {
     AroundMap = "Around the Map",
     SkullCavern = "Skull Cavern",
     GingerIsland = "Ginger Island",
-    Mines = "Mines"
+    Mines = "Mines",
+    Beach = "Beach"
 }
 
 export enum Season {

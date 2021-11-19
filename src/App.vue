@@ -1,5 +1,5 @@
 <template>
-    <card-filter class="mb-4" />
+    <app-header class="mb-4" />
     <div class="flex justify-center">
         <div class="w-full max-w-6xl mx-4">
             <router-view></router-view>
@@ -8,5 +8,5 @@
 </template>
 
 <script setup lang="ts">
-import CardFilter from "./components/CardFilter.vue";
+import AppHeader from "./components/AppHeader.vue";
 </script>

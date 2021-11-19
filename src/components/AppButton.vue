@@ -2,13 +2,15 @@
     <headless-button
         class="
             p-2
+            px-4
             hover:ring
             focus-visible:ring
             ring-blue-green
             focus:outline-none
-            rounded-lg
+            rounded
             bg-shamrock-green
             text-white
+            select-none
         "
     >
         <slot></slot>

@@ -10,6 +10,19 @@ export function load() {
         mainStore.done = items;
     }
 }
+export function loadFromSave() {
+    const mainStore = useMainStore();
+    mainStore.done = mainStore.items.filter(
+        x =>
+            mainStore.saveGameItems.find(y => {
+                if (x.goldQuality) {
+                    return y.id === x.id && y.quality === 2;
+                }
+                return y.id === x.id;
+            })?.completed
+    );
+    mainStore.items = mainStore.items.filter(x => !mainStore.done.find(y => y.id === x.id));
+}
 
 export function save() {
     const mainStore = useMainStore();

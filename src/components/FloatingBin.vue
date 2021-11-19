@@ -3,7 +3,7 @@
         <div class="relative">
             <div
                 class="bg-white rounded flex items-center justify-center hover:shadow-2xl transition-all"
-                :class="isDraggingOver ? 'w-16 h-16 text-5xl shadow-2xl' : 'shadow-md w-14 h-14 text-4xl'"
+                :class="mainStore.isDraggingElement ? 'w-16 h-16 text-5xl shadow-2xl' : 'shadow-md w-14 h-14 text-4xl'"
             >
                 <icon class="" icon="twemoji:basket" />
             </div>
@@ -12,8 +12,12 @@
                 group="items"
                 class="absolute top-0 left-0 w-14 h-14 opacity-0"
                 ghost-class="scale-50"
-                @dragenter="dragEnter"
-                @add="dragLeave"
+                @dragenter="mainStore.isDraggingElement = true"
+                @add="mainStore.isDraggingElement = false"
+                @choose="dragTest"
+                @update="dragTest"
+                @remove="dragTest"
+                @end="dragTest"
                 item-key="name"
             >
                 <template #item="{ element }">
@@ -37,6 +41,9 @@ function dragEnter() {
 function dragLeave() {
     console.log("leave");
     isDraggingOver.value = false;
+}
+function dragTest() {
+    console.log("test");
 }
 onMounted(() => {
     // window.addEventListener("drop", dragLeave);

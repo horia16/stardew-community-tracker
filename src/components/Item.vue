@@ -4,13 +4,21 @@
             <accordion-header class="" v-slot="{ isOpen }">
                 <card class="flex items-center justify-between">
                     <div class="flex gap-4 items-center">
-                        <card class="p-2 bg-blue-green handle cursor-move image border bg-yellow">
+                        <card class="p-2 bg-blue-green handle cursor-move image border bg-yellow relative">
                             <img
                                 :src="`/items/${item.sprite}`"
                                 alt=""
                                 srcset=""
                                 draggable="false"
                                 class="w-6 h-6 select-none min-w-[1.5rem] min-h-[1.5rem]"
+                            />
+                            <img
+                                v-if="item.goldQuality"
+                                :src="`/ui/gold.webp`"
+                                alt=""
+                                srcset=""
+                                draggable="false"
+                                class="w-6 h-6 select-none min-w-[1.5rem] min-h-[1.5rem] absolute bottom-1 left-1"
                             />
                         </card>
                         <div class="ghost-hidden">
