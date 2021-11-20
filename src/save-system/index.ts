@@ -1,4 +1,4 @@
-import { Item } from "../store/items";
+import items, { Item } from "../store/items";
 import { useMainStore } from "../store/main";
 
 export function load() {
@@ -10,10 +10,16 @@ export function load() {
         mainStore.done = items;
     }
 }
+
+export function reset() {
+    const mainStore = useMainStore();
+    localStorage.setItem("done_items", "[]");
+    mainStore.done = [];
+    mainStore.items = items;
+}
+
 export function loadFromSave() {
     const mainStore = useMainStore();
-
-    console.log(mainStore.saveGameItems.filter(x => x.id == 422));
 
     mainStore.done = mainStore.items.filter(
         x =>

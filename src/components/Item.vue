@@ -108,7 +108,7 @@ const props = defineProps({
 });
 const mainStore = useMainStore();
 const shouldView = computed(() =>
-    mainStore.filters.length === 0 || mainStore.filters.find(x => [...props.item.seasons, ""].includes(x))
+    mainStore.filters.length === 0 || mainStore.filters.every(x => [...props.item.seasons, ""].includes(x))
         ? true
         : false
 );
