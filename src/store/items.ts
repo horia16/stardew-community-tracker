@@ -699,7 +699,7 @@ const items: Array<Item> = [
         description: "A seed of the coconut palm. It has many culinary uses.",
         foundBy: [Action.Forage],
         foundIn: [Location.DesertOasis],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -710,7 +710,7 @@ const items: Array<Item> = [
         description: "The sweet fruit of the prickly pear cactus.",
         foundBy: [Action.Forage],
         foundIn: [Location.DesertOasis],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -721,7 +721,7 @@ const items: Array<Item> = [
         description: "A starchy snack found in caves. It helps miners work longer.",
         foundBy: [Action.Forage],
         foundIn: [Location.Mines],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -732,7 +732,7 @@ const items: Array<Item> = [
         description: "A rare mushroom found deep in caves.",
         foundBy: [Action.Forage],
         foundIn: [Location.Mines],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -743,7 +743,7 @@ const items: Array<Item> = [
         description: "A sweet syrup with a unique flavor.",
         foundBy: [Action.Forage],
         foundIn: [Location.Farm],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -754,7 +754,7 @@ const items: Array<Item> = [
         description: "A sticky, fragrant substance derived from oak sap.",
         foundBy: [Action.Forage],
         foundIn: [Location.Farm],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -765,7 +765,7 @@ const items: Array<Item> = [
         description: "A pungent substance derived from pine sap.",
         foundBy: [Action.Forage],
         foundIn: [Location.Farm],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -776,7 +776,7 @@ const items: Array<Item> = [
         description: "Dried grass used as animal food.",
         foundBy: [Action.Forage],
         foundIn: [Location.Farm],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -787,7 +787,7 @@ const items: Array<Item> = [
         description: "A slow-moving, spiny creature that some consider a delicacy.",
         foundBy: [Action.Forage],
         foundIn: [Location.Beach],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -798,7 +798,7 @@ const items: Array<Item> = [
         description: "A large ocean-dwelling crustacean with a strong tail.",
         foundBy: [Action.CrabPot],
         foundIn: [Location.Ocean],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -809,7 +809,7 @@ const items: Array<Item> = [
         description: "A small freshwater relative of the lobster.",
         foundBy: [Action.CrabPot],
         foundIn: [Location.River, Location.Lake],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -820,7 +820,7 @@ const items: Array<Item> = [
         description: "A marine crustacean with two powerful pincers.",
         foundBy: [Action.CrabPot],
         foundIn: [Location.Ocean],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -831,7 +831,7 @@ const items: Array<Item> = [
         description: "A common saltwater clam.",
         foundBy: [Action.CrabPot],
         foundIn: [Location.Ocean],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -842,7 +842,7 @@ const items: Array<Item> = [
         description: "A common bivalve that often lives in clusters.",
         foundBy: [Action.CrabPot],
         foundIn: [Location.Ocean],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -853,7 +853,7 @@ const items: Array<Item> = [
         description: "A scavenger that feeds off the ocean floor. Widely prized for its meat.",
         foundBy: [Action.CrabPot],
         foundIn: [Location.Ocean],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -864,7 +864,7 @@ const items: Array<Item> = [
         description: "A wide-ranging mollusc that lives in a spiral shell.",
         foundBy: [Action.CrabPot],
         foundIn: [Location.Lake, Location.River],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -875,7 +875,7 @@ const items: Array<Item> = [
         description: "A tiny freshwater snail that lives in a blue shell.",
         foundBy: [Action.CrabPot],
         foundIn: [Location.Lake, Location.River],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -887,7 +887,7 @@ const items: Array<Item> = [
             "Constantly filters water to find food. In the process, it removes dangerous toxins from the environment.",
         foundBy: [Action.CrabPot],
         foundIn: [Location.Ocean],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -898,7 +898,7 @@ const items: Array<Item> = [
         description: "Someone lived here once.",
         foundBy: [Action.CrabPot],
         foundIn: [Location.Ocean],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -909,7 +909,7 @@ const items: Array<Item> = [
         description: "A popular fish that lives in lakes.",
         foundBy: [Action.Fishing],
         foundIn: [Location.Lake],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: { start: "6AM", end: "7PM" },
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -920,7 +920,7 @@ const items: Array<Item> = [
         description: "A relative of the catfish that eats a variety of foods off the lake bottom.",
         foundBy: [Action.Fishing],
         foundIn: [Location.Lake],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -931,7 +931,7 @@ const items: Array<Item> = [
         description: "A fairly common river fish that becomes active at night.",
         foundBy: [Action.Fishing],
         foundIn: [Location.River],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -942,7 +942,7 @@ const items: Array<Item> = [
         description: "A pale, blind fish found in underground lakes.",
         foundBy: [Action.Fishing],
         foundIn: [Location.MinePonds],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: { start: "6AM", end: "7PM" },
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -953,7 +953,7 @@ const items: Array<Item> = [
         description: "A common freshwater fish known for its voracious appetite.",
         foundBy: [Action.Fishing],
         foundIn: [Location.Lake, Location.River],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -964,7 +964,7 @@ const items: Array<Item> = [
         description: "It tries to hide using camouflage.",
         foundBy: [Action.Fishing],
         foundIn: [Location.DesertOasis],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: { start: "6AM", end: "8PM" },
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -975,7 +975,7 @@ const items: Array<Item> = [
         description: "A very sensitive fish that can only live in pools deep in the forest.",
         foundBy: [Action.Fishing],
         foundIn: [Location.SecretWoods],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -986,7 +986,7 @@ const items: Array<Item> = [
         description: "A common pond fish.",
         foundBy: [Action.Fishing],
         foundIn: [Location.Lake, Location.SecretWoods],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1019,7 +1019,7 @@ const items: Array<Item> = [
         description: "A clear crystal commonly found in caves and mines.",
         foundBy: [Action.Mining],
         foundIn: [Location.Mines],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1030,7 +1030,7 @@ const items: Array<Item> = [
         description: "A resinous substance found near the surface.",
         foundBy: [Action.Mining],
         foundIn: [Location.Mines],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1041,7 +1041,7 @@ const items: Array<Item> = [
         description: "A crystal fabled to be the frozen tears of a yeti.",
         foundBy: [Action.Mining],
         foundIn: [Location.Mines],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1053,7 +1053,7 @@ const items: Array<Item> = [
         description: "A glowing red crystal commonly found near hot lava.",
         foundBy: [Action.Mining],
         foundIn: [Location.Mines],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1064,7 +1064,7 @@ const items: Array<Item> = [
         description: "A shimmery blue-green gem.",
         foundBy: [Action.Mining],
         foundIn: [Location.Mines],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1075,7 +1075,7 @@ const items: Array<Item> = [
         description: "A blacksmith can break this open for you.",
         foundBy: [Action.Mining],
         foundIn: [Location.Mines],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1086,7 +1086,7 @@ const items: Array<Item> = [
         description: "A bar of pure copper.",
         foundBy: [Action.Construction],
         foundIn: [Location.Farm],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1097,7 +1097,7 @@ const items: Array<Item> = [
         description: "A bar of pure iron.",
         foundBy: [Action.Construction],
         foundIn: [Location.Farm],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1108,7 +1108,7 @@ const items: Array<Item> = [
         description: "A bar of pure gold.",
         foundBy: [Action.Mining],
         foundIn: [Location.Mines],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1119,7 +1119,7 @@ const items: Array<Item> = [
         description: "A shimmering, gelatinous glob with no smell.",
         foundBy: [Action.MonsterKilling],
         foundIn: [Location.Mines],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1130,7 +1130,7 @@ const items: Array<Item> = [
         description: "The material is surprisingly delicate.",
         foundBy: [Action.MonsterKilling],
         foundIn: [Location.Mines],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1141,7 +1141,7 @@ const items: Array<Item> = [
         description: "The glowing face is warm to the touch.",
         foundBy: [Action.MonsterKilling],
         foundIn: [Location.Mines],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1152,7 +1152,7 @@ const items: Array<Item> = [
         description: "It's quivering with dark energy.",
         foundBy: [Action.MonsterKilling],
         foundIn: [Location.Mines],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1163,7 +1163,7 @@ const items: Array<Item> = [
         description: "A sturdy, yet flexible plant material with a wide variety of uses.",
         foundBy: [Action.Construction, Action.Forage],
         foundIn: [Location.Farm, Location.AroundMap],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1174,7 +1174,7 @@ const items: Array<Item> = [
         description: "A special kind of wood with superior strength and beauty.",
         foundBy: [Action.Construction, Action.Forage],
         foundIn: [Location.Farm, Location.AroundMap],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1185,7 +1185,7 @@ const items: Array<Item> = [
         description: "A common material with many uses in crafting and building.",
         foundBy: [Action.Construction, Action.Forage],
         foundIn: [Location.Farm, Location.AroundMap],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1196,7 +1196,7 @@ const items: Array<Item> = [
         description: "It's your basic cheese.",
         foundBy: [Action.Construction],
         foundIn: [Location.Farm],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1207,7 +1207,7 @@ const items: Array<Item> = [
         description: "Soft cheese made from goat's milk.",
         foundBy: [Action.Construction],
         foundIn: [Location.Farm],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1218,7 +1218,7 @@ const items: Array<Item> = [
         description: "Drink in moderation.",
         foundBy: [Action.Construction],
         foundIn: [Location.Farm],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1229,7 +1229,7 @@ const items: Array<Item> = [
         description: "Gooey.",
         foundBy: [Action.Construction],
         foundIn: [Location.Farm],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1240,7 +1240,7 @@ const items: Array<Item> = [
         description: "A bolt of fine wool cloth.",
         foundBy: [Action.Construction, Action.MonsterKilling],
         foundIn: [Location.Farm, Location.SkullCavern],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1251,7 +1251,7 @@ const items: Array<Item> = [
         description: "Sunny-side up.",
         foundBy: [Action.Construction],
         foundIn: [Location.Farm],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
@@ -1262,7 +1262,7 @@ const items: Array<Item> = [
         description: "Fish and rice wrapped in seaweed.",
         foundBy: [Action.Construction],
         foundIn: [Location.Farm],
-        seasons: [Season.Spring, Season.Spring, Season.Fall, Season.Winter],
+        seasons: [Season.Spring, Season.Summer, Season.Fall, Season.Winter],
         time: null,
         weather: [Weather.Raining, Weather.Sunny]
     },
