@@ -12,5 +12,5 @@ export default defineConfig({
     }
   },
   plugins: [loadVersion(), vue(), WindiCSS()],
-  base: "/stardew-tracker/"
+  base: "/stardew-community-tracker/"
 });
