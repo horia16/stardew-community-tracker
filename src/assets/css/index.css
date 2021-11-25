@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+}
+body {
+  background: url("@/assets/images/ui/default-background.png") no-repeat fixed center center / cover;
+  overflow: auto;
+  overflow: overlay;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 50);
+  border-radius: 20px;
+  border: 1px solid rgb(207, 207, 207);
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+}
